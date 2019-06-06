@@ -1,0 +1,160 @@
+a:2:{s:6:"height";s:0:"";s:6:"weight";s:0:"";}
+
+
+a:2:{i:15;a:1:{i:9;s:2:"29";}i:0;a:1:{i:9;s:2:"-1";}}
+
+a:2:{i:15;a:2:{i:0;a:8:{s:5:"goals";s:0:"";s:7:"assists";s:0:"";s:11:"yellowcards";s:0:"";s:8:"redcards";s:0:"";s:11:"appearances";s:0:"";s:8:"winratio";s:0:"";s:9:"drawratio";s:0:"";s:9:"lossratio";s:0:"";}i:9;a:8:{s:5:"goals";s:0:"";s:7:"assists";s:0:"";s:11:"yellowcards";s:0:"";s:8:"redcards";s:0:"";s:11:"appearances";s:0:"";s:8:"winratio";s:0:"";s:9:"drawratio";s:0:"";s:9:"lossratio";s:0:"";}}i:0;a:2:{i:0;a:8:{s:5:"goals";s:0:"";s:7:"assists";s:0:"";s:11:"yellowcards";s:0:"";s:8:"redcards";s:0:"";s:11:"appearances";s:0:"";s:8:"winratio";s:0:"";s:9:"drawratio";s:0:"";s:9:"lossratio";s:0:"";}i:9;a:8:{s:5:"goals";s:0:"";s:7:"assists";s:0:"";s:11:"yellowcards";s:0:"";s:8:"redcards";s:0:"";s:11:"appearances";s:0:"";s:8:"winratio";s:0:"";s:9:"drawratio";s:0:"";s:9:"lossratio";s:0:"";}}}
+
+
+
+//------------------------------------>
+
+a:2:{i:15;a:1:{i:9;s:2:"29";}i:0;a:1:{i:9;s:1:"1";}}
+
+a:2:{i:11;a:1:{i:0;s:4:"526";}i:0;a:1:{i:0;s:1:"1";}}
+
+
+a:2:{i:15;a:2:{i:0;a:8:{s:5:"goals";s:0:"";s:7:"assists";s:0:"";s:11:"yellowcards";s:0:"";s:8:"redcards";s:0:"";s:11:"appearances";s:0:"";s:8:"winratio";s:0:"";s:9:"drawratio";s:0:"";s:9:"lossratio";s:0:"";}i:9;a:8:{s:5:"goals";s:0:"";s:7:"assists";s:0:"";s:11:"yellowcards";s:0:"";s:8:"redcards";s:0:"";s:11:"appearances";s:0:"";s:8:"winratio";s:0:"";s:9:"drawratio";s:0:"";s:9:"lossratio";s:0:"";}}i:0;a:2:{i:0;a:8:{s:5:"goals";s:0:"";s:7:"assists";s:0:"";s:11:"yellowcards";s:0:"";s:8:"redcards";s:0:"";s:11:"appearances";s:0:"";s:8:"winratio";s:0:"";s:9:"drawratio";s:0:"";s:9:"lossratio";s:0:"";}i:9;a:8:{s:5:"goals";s:0:"";s:7:"assists";s:0:"";s:11:"yellowcards";s:0:"";s:8:"redcards";s:0:"";s:11:"appearances";s:0:"";s:8:"winratio";s:0:"";s:9:"drawratio";s:0:"";s:9:"lossratio";s:0:"";}}}
+
+
+
+//ESTE ES CON 1 SOLO EQUIPO
+a:2:
+{
+	i:15;				-> 	wp_terms	->	term_id	// ID DE LA COMPETICION
+	a:1:
+	{
+		i:9; 			->	wp_terms	->	term_id	//	ID DE LA TEMPORADA
+		s:2:"29";		->	wp_posts	->	ID 		// ID DEL EQUIPO
+	}
+		i:0;			
+		a:1:
+	{
+		i:9;
+		s:1:"1";
+	}
+}
+
+//
+
+a:3:
+{
+	i:15;				-> 	wp_terms	->	term_id	// ID DE LA COMPETICION
+	a:1:
+	{
+		i:9;			->	wp_terms	->	term_id	//	ID DE LA TEMPORADA
+		s:2:"29";		->	wp_posts	->	ID 		// ID DEL EQUIPO
+	}
+		i:6;			->	wp_terms	->	term_id	// ID DE LA COMPETICION
+		a:1:
+	{
+		i:9;			->	wp_terms	->	term_id	//	ID DE LA TEMPORADA
+		s:2:"31";		->	wp_posts	->	ID 		// ID DEL EQUIPO ESTE PORQUE ESTA EN 2 EQUIPOS
+	}
+		i:0;
+		a:1:
+	{
+		i:9;
+		s:1:"1";
+	}
+}
+
+//
+a:2:  --> cantidad de parametros que enviaremos
+{
+	i:15;a:1:
+	{i:9;s:2:"29";}
+	i:0;a:1:
+	{i:9;s:1:"1";}
+}
+
+a:3:
+{
+	i:15;a:1:{i:9;s:2:"29";}
+	i:6;a:1:{i:9;s:2:"30";}
+	i:0;a:1:{i:9;s:1:"1";}
+}
+
+//
+
+a:3:
+{
+	i:15;
+	a:1:
+	{
+		i:9;
+		s:2:"29";
+	}
+	i:6;
+	a:1:
+	{
+		i:9;
+		s:2:"31";
+	}
+	i:0;
+	a:1:
+	{
+		i:9;
+		s:1:"1";
+	}
+}
+
+
+
+--------------
+
+
+a:2:{i:15;a:1:{i:9;s:2:"-1";}i:0;a:1:{i:9;s:2:"-1";}}
+
+a:2:{i:15;a:1:{i:9;s:2:"-1";}i:0;a:1:{i:9;s:2:"-1";}}
+
+a:6:{i:15;a:1:{i:9;s:2:"29";}
+
+---
+
+a:3:
+{
+	i:15;
+	a:1:
+			{i:9;s:2:"29";}
+	i:6;
+	a:1:
+			{i:9;s:2:"30";}
+	i:0;
+	a:1:
+			{i:9;s:1:"1";}
+}
+
+a:3:
+{
+	i:15;a:1:
+			{i:9;s:2:"29";}
+	i:6;a:2:
+			{
+				i:9;s:2:"30";
+				i:8;s:2:"30";
+			}
+	i:0;a:2:
+			{
+				i:9;s:1:"1";
+				i:8;s:1:"1";
+			}
+}
+
+a:3:{
+	i:15;a:1:
+			{
+				i:9;s:2:"29";
+			}
+	i:6;a:3:
+			{
+				i:8;s:2:"30";
+				i:9;s:2:"30";
+				i:10;s:2:"30";
+			}
+
+
+a:3:{i:15;a:1:{i:9;s:2:"29";}i:6;a:2:{i:9;s:2:"30";i:8;s:2:"30";}i:0;a:2:{i:9;s:1:"1";i:8;s:1:"1";}}
+a:3:{i:15;a:1:{i:9;s:2:"29";}i:6;a:3:{i:8;s:2:"30";i:9;s:2:"30";i:10;s:2:"30";}
+
+NOS QUEDAMOS EN LA LINEA 379 DE RESPONS-RELACIONADORJ.PHP

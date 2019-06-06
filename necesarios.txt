@@ -1,0 +1,26 @@
+vamos a necesitar lo siguiente:
+
+Relacionar jugadores segun la liga que el tenga y el equipo,
+Revisar prefijos de los usuarios para saber en que liga se relacionaran.
+
+
+Relacionaremos de estas maneras:
+
+Segun Inscripcion 	-> 	La inscripcion revisa todos los jugadores inscritos y los relaciona con su equipo y solo la ultima temporada y liga de la inscripcion.
+
+Segun Metricas		->	Al seleccionar la metrica solo relacionan los jugadores que tengan esa metrica.
+
+Segun equipo 		->	Al seleccionar el equipo te manda a los jugadores y lo relaciona con las metricas.
+
+
+
+
+
+<!-- COSAS POR REVISAR -->
+
+Debemos revisar las variables:
+$GLOBALS["formularioSub"]
+global $formularioSub;
+
+estas estan: respons-funciones.php
+
